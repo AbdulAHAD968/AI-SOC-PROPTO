@@ -1,0 +1,42 @@
+/* AlertDetail.css */
+
+.alert-detail {
+    margin-bottom: 24px;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.alert-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alert-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.alert-description {
+    margin-bottom: 16px;
+    color: #555;
+}
+
+.alert-meta {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 16px;
+}
+
+.alert-meta div {
+    flex: 1;
+}
+
+.alert-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}

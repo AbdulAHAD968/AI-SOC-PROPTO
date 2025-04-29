@@ -1,0 +1,50 @@
+/* AlertTable.css */
+
+.alert-table-container {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.alert-table-container h2 {
+    margin-bottom: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Customize DataGrid rows */
+.MuiDataGrid-root {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.MuiDataGrid-columnHeaders {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.MuiDataGrid-cell {
+    font-size: 0.9rem;
+}
+
+/* Row hover effect */
+.MuiDataGrid-row:hover {
+    background-color: #e8f4ff !important;
+}
+
+/* Severity color override (optional if not using inline styles) */
+.severity-low {
+    color: green;
+    font-weight: bold;
+}
+
+.severity-medium {
+    color: orange;
+    font-weight: bold;
+}
+
+.severity-high {
+    color: red;
+    font-weight: bold;
+}

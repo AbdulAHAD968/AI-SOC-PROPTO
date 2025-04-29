@@ -1,0 +1,41 @@
+.system-status-container {
+    padding: 24px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.system-status-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.status-section {
+    margin-bottom: 24px;
+}
+
+.status-section-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.status-log-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.status-log-details p {
+    margin-right: 8px;
+    font-size: 0.875rem;
+    color: #444;
+}
+
+.status-throughput {
+    margin-top: 8px;
+    font-size: 0.75rem;
+    color: #666;
+}
